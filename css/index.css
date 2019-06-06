@@ -1,3 +1,13 @@
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -202,6 +212,8 @@ nav a:last-child {
   justify-content: space-between;
   margin: 1.5rem 0;
   padding: 1.5rem 0;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 @media (max-width: 500px) {
   .home header {
