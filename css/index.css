@@ -212,6 +212,7 @@ nav a:last-child {
   justify-content: space-between;
   margin: 1.5rem 0;
   padding: 1.5rem 0;
+  border-bottom: 2px dashed #C0C0C0;
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -338,4 +339,7 @@ nav a:last-child {
   border-radius: 1.4rem;
   padding: 1.25rem 0;
   background-color: #17A2B8;
+}
+.home .content-pick .btn:hover {
+  background-color: #4cd3e9;
 }
