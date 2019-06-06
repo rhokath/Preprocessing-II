@@ -317,20 +317,13 @@ nav a:last-child {
     width: 75%;
   }
 }
-.home .content-pick .destination .btn {
-  width: 20rem;
+.home .content-pick .btn {
+  width: 83.5%;
   cursor: pointer;
-  height: 4.5rem;
-  font-size: 2rem;
-  color: white;
-  border-radius: 1rem;
-  padding: 1.25rem 0 1.25rem 5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #FFFFFF;
+  border-radius: 1.4rem;
+  padding: 1.25rem 0;
   background-color: #17A2B8;
-}
-@media (max-width: 500px) {
-  .home .content-pick .destination .btn {
-    width: 100%;
-    align-content: center;
-    padding: 1.25rem 0 1.25rem 12rem;
-  }
 }
